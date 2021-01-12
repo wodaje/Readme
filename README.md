@@ -1,7 +1,10 @@
- # undefined
+ 
+//https://img.shields.io/apm/l/vim-mode
+# Super DEEE Dupper
 
 ## Description 
-undefined
+test
+
 
 ## Table of Contents
 
@@ -12,37 +15,36 @@ undefined
 * [Questions](#Questions)
 * [License](#License)
 
-<=======================================================================================>
 
 
 ## Installation
 
-undefined
+afdf
 
 
 ## Usage 
 
-undefined
+adfadsf
 
 ## Contributing
 
-undefined
+adfadfa
 
 ## Tests
 
-undefined
+adfasdf
 
 
 ## Questions
 
-Github user name: [undefined](https://github.com/undefined)
+Github user name: [wodaje](https://github.com/wodaje)
 
-Contact email: [undefined]("mailto:undefined")
+Contact email: [jeff@wodahouse.com]("mailto:jeff@wodahouse.com")
 
 ## License
 
-Licensed under the [ ](  License.txt) license.
+Licensed under the [Apache](Apache License.txt) license.
 
 ---
 
-© 2020 Wodahouse.com DWYW license (Wo What You Want)
+© 2020 Wodahouse.com dwyhd (do what your heart desires) license Readme Generator - delete this line if unwanted!

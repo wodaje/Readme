@@ -65,13 +65,15 @@ const liceX = [
 ]
 
 
-//https://img.shields.io/apm/l/vim-mode
+
 
 
 
 const genMD = (out) =>{
 
-return ` # ${out.pro_title}
+return ` 
+//https://img.shields.io/apm/l/vim-mode
+# ${out.pro_title}
 
 ## Description 
 ${out.description}
@@ -85,7 +87,6 @@ ${out.description}
 * [Questions](#Questions)
 * [License](#License)
 
-<=======================================================================================>
 
 
 ## Installation
@@ -118,7 +119,7 @@ Licensed under the [${out.lice}](${out.lice} License.txt) license.
 
 ---
 
-© 2020 Wodahouse.com DWYW license (Wo What You Want)`
+© 2020 Wodahouse.com dwyhd (do what your heart desires) license Readme Generator - delete this line if unwanted!`
 
 }
 
