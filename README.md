@@ -1,6 +1,6 @@
  
-//https://img.shields.io/apm/l/vim-mode
-# Super DEEE Dupper
+[](//https://img.shields.io/apm/l/vim-mode)
+# Yoyoyoyoyoyo
 
 ## Description 
 test
@@ -19,20 +19,20 @@ test
 
 ## Installation
 
-afdf
+fasdfad
 
 
 ## Usage 
 
-adfadsf
+asdfasf
 
 ## Contributing
 
-adfadfa
+asdfasdf
 
 ## Tests
 
-adfasdf
+asfasdf
 
 
 ## Questions
@@ -43,7 +43,7 @@ Contact email: [jeff@wodahouse.com]("mailto:jeff@wodahouse.com")
 
 ## License
 
-Licensed under the [Apache](Apache License.txt) license.
+Licensed under the [MIT](MIT License.txt) license.
 
 ---
 

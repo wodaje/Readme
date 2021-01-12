@@ -10,42 +10,42 @@ const questions = () =>{
    {
         type:"input",
         name: "pro_title",
-        message: "Please input the title for your <Project>"
+        message: "Please input the title for *<Project>*"
         },
     {
         type:"editor",
         name: "description",
-        message: "Please add a description of your <Project>"
+        message: "Please add a description for *<Project>*"
         },
     {
         type:"editor",
         name: "install",
-        message: `Please add instructions on installation = Heading is <Installation>`
+        message: `Please add instructions on *<Installation>*`
         },        
     {
         type:"editor",
         name: "usage",
-        message: `Please add details on usage = Heading is <Usage>`
+        message: `Please add details on *<Usage>*`
         },
     {
         type:"editor",
         name: "contr",
-        message: `Please add contribution guidlines = Heading is <Contributing>`
+        message: `Please add contribution guidlines *<Contributing>*`
         },        
     {
         type:"editor",
         name: "test",
-        message: `Please add testing instructions = Heading is <Tests>`
+        message: `Please add testing instructions *<Tests>*`
         }, 
     {
         type:"input",
         name: "git",
-        message: "Please enter your GitHub username for the <Questions> Section"
+        message: "Please enter your GitHub username *<Questions>*"
         },        
     {
         type:"input",
         name: "email",
-        message: "Please enter your contact email for the <Questions> Section"
+        message: "Please enter your contact email *<Questions>*"
         },
     {
         type:"list",
@@ -56,7 +56,6 @@ const questions = () =>{
     ])
 } 
 
-
 const liceX = [
     {name:'GNU GPLv3'},
     {name:'MIT'},
@@ -64,15 +63,10 @@ const liceX = [
     {name:'ISC'}
 ]
 
-
-
-
-
-
 const genMD = (out) =>{
 
 return ` 
-//https://img.shields.io/apm/l/vim-mode
+[](//https://img.shields.io/apm/l/vim-mode)
 # ${out.pro_title}
 
 ## Description 
