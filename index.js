@@ -66,7 +66,8 @@ const liceX = [
 const genMD = (out) =>{
 
 return ` 
-[](//https://img.shields.io/apm/l/vim-mode)
+![](https://img.shields.io/apm/l/vim-mode)
+---
 # ${out.pro_title}
 
 ## Description 
@@ -105,11 +106,11 @@ ${out.test}
 
 Github user name: [${out.git}](https://github.com/${out.git})
 
-Contact email: [${out.email}]("mailto:${out.email}")
+Contact email: [${out.email}](mailto:${out.email})
 
 ## License
 
-Licensed under the [${out.lice}](${out.lice} License.txt) license.
+Licensed under the [${out.lice}](${out.lice}%20License.txt) license.
 
 ---
 
