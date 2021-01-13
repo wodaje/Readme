@@ -4,7 +4,10 @@
 # Readme Generator
 
 ## Description 
-This command prompt interface allows you to genarate a README.md file with structure.
+This is a command prompt program to generate a README.md file
+
+![](snap1.png)
+![](snap2.png)
 
 ## Table of Contents
 
@@ -19,24 +22,27 @@ This command prompt interface allows you to genarate a README.md file with struc
 
 ## Installation
 
-1. 	To install this program copy the files provided to your folder.
+1.	To install simply copy the files into your desired directory.
 
-2.	Run npm i on your terminal as well as install inquirer.
+2.	Run npm i and install inquirer package
 
-3.	Then node index.js
+3. 	Launch node index.js
 
+4.	Answer the prompts to fill in the form
+
+5.  Instructional [Video](inst_vid.webm) 
 
 ## Usage 
 
-The program allows the user to generate consistent README.md files.
+This is to be able to genearte a consistent and professional README.md file.
 
 ## Contributing
 
-Contributing guidlines are pretty open.
+There are no contribution restrictions at this time.
 
 ## Tests
 
-Simply run to see.
+Test at will
 
 
 ## Questions
