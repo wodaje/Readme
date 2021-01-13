@@ -30,7 +30,7 @@ This is a command prompt program to generate a README.md file
 
 4.	Answer the prompts to fill in the form
 
-5.  Instructional [Video](inst_vid.webm) 
+5.  Instructional [Video](ins_vid.mp4) 
 
 ## Usage 
 
