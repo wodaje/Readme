@@ -32,7 +32,7 @@ This is a command prompt program to generate a README.md file
 
 5.  Instructional [Video](ins_vid.mp4) 
 
-    __(Due to file size restrictions please click on raw file and download the video as GitHub will not autoplay)__
+    _**(Due to file size restrictions please click on raw file and download the video as GitHub will not autoplay)**_
 
 
 
