@@ -63,10 +63,27 @@ const liceX = [
     {name:'ISC'}
 ]
 
+function writeBadge(out){
+    switch (out.lice) {
+        case 'GNU GPLv3':
+            return '![](https://img.shields.io/badge/license-GNU%20GPLv3-brightgreen)'
+            break;
+        case 'MIT':
+            return '![](https://img.shields.io/apm/l/vim-mode)'
+            break;
+        case 'Apache':
+            return '![](https://img.shields.io/aur/license/android-studio)'
+            break;
+        case 'ISC':
+            return '![](https://img.shields.io/badge/license-ISC-brightgreen)';           
+    }
+    
+}
+
 const genMD = (out) =>{
 
 return ` 
-![](https://img.shields.io/apm/l/vim-mode)
+${writeBadge(out)}
 ---
 # ${out.pro_title}
 

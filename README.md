@@ -1,10 +1,10 @@
  
 ![](https://img.shields.io/apm/l/vim-mode)
 ---
-# a;lsdfja;lskdfj
+# Readme Generator
 
 ## Description 
-al;sjfal;skjf
+This command prompt interface allows you to genarate a README.md file with structure.
 
 ## Table of Contents
 
@@ -19,20 +19,24 @@ al;sjfal;skjf
 
 ## Installation
 
-asdfasf
+1. 	To install this program copy the files provided to your folder.
+
+2.	Run npm i on your terminal as well as install inquirer.
+
+3.	Then node index.js
 
 
 ## Usage 
 
-asfasdfasdf
+The program allows the user to generate consistent README.md files.
 
 ## Contributing
 
-asdfasdf
+Contributing guidlines are pretty open.
 
 ## Tests
 
-asfadfs
+Simply run to see.
 
 
 ## Questions
@@ -43,7 +47,7 @@ Contact email: [jeff@wodahouse.com](mailto:jeff@wodahouse.com)
 
 ## License
 
-Licensed under the [Apache](Apache%20License.txt) license.
+Licensed under the [MIT](MIT%20License.txt) license.
 
 ---
 
