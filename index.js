@@ -57,6 +57,7 @@ const questions = () =>{
 } 
 
 const liceX = [
+    {name:'None'},
     {name:'GNU GPLv3'},
     {name:'MIT'},
     {name:'Apache'},
@@ -75,9 +76,26 @@ function writeBadge(out){
             return '![](https://img.shields.io/aur/license/android-studio)'
             break;
         case 'ISC':
-            return '![](https://img.shields.io/badge/license-ISC-brightgreen)';           
-    }
-    
+            return '![](https://img.shields.io/badge/license-ISC-brightgreen)'
+            break;
+        case 'None':
+            return '![](https://img.shields.io/badge/license-None-red)';            
+    }  
+}
+
+function liceFill(out){
+
+let fillLicense = ""
+
+if (out.lice !== 'None'){
+
+fillLicense = 
+`## License
+
+Licensed under the [${out.lice}](${out.lice}%20License.txt) license.`
+} 
+
+return fillLicense
 }
 
 const genMD = (out) =>{
@@ -125,9 +143,7 @@ Github user name: [${out.git}](https://github.com/${out.git})
 
 Contact email: [${out.email}](mailto:${out.email})
 
-## License
-
-Licensed under the [${out.lice}](${out.lice}%20License.txt) license.
+${liceFill(out)}
 
 ---
 
