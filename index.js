@@ -87,15 +87,25 @@ function liceFill(out){
 
 let fillLicense = ""
 
-if (out.lice !== 'None'){
+    if (out.lice !== 'None'){
 
-fillLicense = 
+    fillLicense =
 `## License
 
 Licensed under the [${out.lice}](${out.lice}%20License.txt) license.`
-} 
-
+    } 
 return fillLicense
+}
+
+function liceHead(out){
+
+    let headLicense = ""
+
+    if (out.lice !== 'None'){
+
+        headLicense = `* [License](#License)`   
+    }
+return headLicense
 }
 
 const genMD = (out) =>{
@@ -115,8 +125,7 @@ ${out.description}
 * [Contributing](#Contributing)
 * [Tests](#Tests)
 * [Questions](#Questions)
-* [License](#License)
-
+${liceHead(out)}
 
 
 ## Installation
@@ -128,9 +137,11 @@ ${out.install}
 
 ${out.usage}
 
+
 ## Contributing
 
 ${out.contr}
+
 
 ## Tests
 
@@ -147,7 +158,7 @@ ${liceFill(out)}
 
 ---
 
-© 2020 Wodahouse.com dwyhd (do what your heart desires) license Readme Generator - delete this line if unwanted!`
+© 2020 Wodahouse.com dwyhd (do what your heart desires) Readme Generator Generated`
 
 }
 
